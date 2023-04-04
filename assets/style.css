@@ -1,11 +1,7 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
 body {
     background-color: #d9dcd6;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 .header{
@@ -29,6 +25,31 @@ body {
   
 }
 
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(../assets/img/header_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding-left: 400px;
+    margin-bottom: 500px;
+
+    
+}
+
+.aside{
+    position: relative;
+    margin-top: 500px;
+}
+
+
+
 .header nav ul{
     list-style-type: none;
 
@@ -43,4 +64,13 @@ a {
     color: rgb(101, 189, 189);
     font-size: 40px;
 }
+
+
+
+/* .contents{
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+} */
 
